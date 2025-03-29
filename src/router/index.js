@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'shop',
-      component: () => import('../views/ShopView.vue'),
+      component: () => import('../views/Shopview.vue'),
     },
     {
       path: '/admin',
